@@ -6,4 +6,7 @@ let numbersOdd = numbers.map(x => {
     }
 });
 
-console.log(numbersOdd);
+for(j=0;j<=numbers.length;j++)
+{
+    alert('Hello'+String(j));
+}
